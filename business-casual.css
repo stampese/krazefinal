@@ -6,7 +6,8 @@
 /*Put a stock photo or product photo in the body background image*/
 body {
   font-family: "Lora";
-  background-image: url("hand.jpg") /*linear-gradient(
+  background-image: url("hand.jpg")
+    /*linear-gradient(
       rgba(5, 5, 5, 0.65),
       rgba(47, 23, 15, 0.65)
     ),
@@ -36,30 +37,34 @@ p {
 .site-heading {
   margin-top: 5rem;
   margin-bottom: 5rem;
-  text-transform: uppercase;
+
   line-height: 1;
   font-family: "Raleway";
 }
 
-.site-heading .site-heading-upper {
+/*.site-heading .site-heading-upper {
   display: block;
   font-size: 2rem;
   font-weight: 800;
-}
+}*/
 
 .site-heading .site-heading-lower {
   font-size: 5rem;
-  font-weight: 100;
+  font-weight: 500;
   line-height: 4rem;
+  color: blueviolet;
 }
 
 .page-section {
   margin-top: 5rem;
   margin-bottom: 5rem;
+  color: violet; /*added by me*/
+  font-weight: 600;
 }
 
 .section-heading {
   text-transform: uppercase;
+  color: blueviolet;
 }
 
 .section-heading .section-heading-upper {
@@ -78,10 +83,10 @@ p {
   background-color: rgba(255, 255, 255, 0.85);
 }*/
 
-#mainNav {
+/*#mainNav {
   background-color: rgba(47, 23, 15, 0.9);
   font-family: "Raleway";
-}
+}*/
 
 #mainNav .navbar-brand {
   color: #e6a756;
@@ -119,6 +124,7 @@ p {
 
 .intro {
   position: relative;
+  color: blueviolet;
 }
 
 @media (min-width: 992px) {
@@ -149,7 +155,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  /*background-color: rgba(230, 167, 86, 0.9);*/
 }
 
 .cta .cta-inner {
@@ -230,7 +236,8 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  /*background-color: black;*/
+  color: black;
 }
 
 .text-primary {
