@@ -18,7 +18,16 @@ body {
   background-size: cover;
 }
 .kh {
-  width: 50px;
+  width: 45px;
+  height: 45px;
+  opacity: .7;
+  margin-top: auto;
+  Position: absolute;
+  top: 0px;
+  right: 0px;
+
+  
+  
 }
 h1,
 h2,
@@ -53,10 +62,13 @@ p {
 
 .site-heading .site-heading-lower {
   font-size: 5rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 4rem;
   color: blueviolet;
-}
+  font-family: "lora";
+  background-color: lavenderblush;
+  opacity: .7;
+  }
 
 .page-section {
   margin-top: 5rem;
